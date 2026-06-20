@@ -22,7 +22,7 @@
    </div>
     </nav>
 
-    <nav class="hidden lg:flex lg:justify-between lg:items-center">
+    <nav class="hidden lg:flex lg:justify-between lg:items-center lg:max-w-300 lg:m-auto">
             <div class="flex gap-5 items-center">
            <img src="./img/logo2.png" alt="">
            <button class="text-3xl relative top-[-5px]">&#9776; <a class="text-[20px]">Каталог</a></button>
@@ -193,7 +193,7 @@
     </section>
 
 
-    <section class=" max-w-300 m-auto p-5 mt-[30%] hidden lg:flex">
+    <section class=" max-w-300 m-auto p-5 mt-[30%] hidden lg:block">
 
         <h1 class="text-5xl font-bold text-center">Популярные категории</h1>
         <div class="flex items-center gap-8 mt-10 justify-center text-[#777]">
@@ -303,7 +303,7 @@
     </section>
 
 
-    <section class="max-w-300 p-5 mt-40 m-auto">
+    <section class="max-w-300 p-5 mt-40 m-auto lg:hidden">
 
         <h1 class="font-bold text-4xl text-center">Новости и предложения</h1>
 
@@ -343,6 +343,183 @@
         </div>
 
     </section>
+
+
+<section class="max-w-300 mx-auto pt-[20px] hidden lg:block mt-40">
+  <h2 class="text-center text-[60px] font-bold leading-none mb-[60px]">
+    Новости и предложения
+  </h2>
+
+  <div class="grid grid-cols-12 gap-[24px]">
+
+    <div class="col-span-8 h-[450px] bg-[#F7F7F7] rounded-[12px] overflow-hidden">
+      <div class="grid grid-cols-2 h-full">
+
+        <div class="pl-[40px] flex flex-col justify-center">
+
+          <span class="text-[#A3C72B] text-[18px] mb-[10px]">
+            Диван Альмека
+          </span>
+
+          <h3 class="text-[64px] font-bold leading-none mb-[15px]">
+            Хит недели
+          </h3>
+
+          <p class="text-[#8A8A8A] text-[18px] mb-[30px]">
+            Цвет: Синий аметист
+          </p>
+
+          <div class="flex items-center gap-4 mb-[35px]">
+            <span class="text-[28px] font-bold">
+              11.990 руб
+            </span>
+
+            <span class="text-[#BFBFBF] line-through text-[18px]">
+              17.990 руб
+            </span>
+          </div>
+
+          <button
+            class="w-[165px] h-[60px] rounded-[10px] bg-[#A3C72B] text-white text-[20px]"
+          >
+            В корзину
+          </button>
+
+        </div>
+
+        <div class="h-full">
+          <img
+            src="./img/4266915 1.png"
+            class="w-full h-full object-cover"
+            alt=""
+          />
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-span-4 flex flex-col gap-[24px]">
+
+      <div class="relative h-[213px] rounded-[12px] overflow-hidden">
+        <img
+          src="./img/Rectangle 89.png"
+          class="absolute inset-0 w-full h-full object-cover"
+          alt=""
+        />
+
+        <div
+          class="absolute inset-0 bg-black/25 flex items-center px-[24px]"
+        >
+          <h3 class="text-white text-[28px] font-bold leading-[34px]">
+            Новинки в мире диванов
+          </h3>
+        </div>
+      </div>
+
+      <div class="relative h-[213px] rounded-[12px] overflow-hidden">
+        <img
+          src="./img/Rectangle 114.png"
+          class="absolute inset-0 w-full h-full object-cover"
+          alt=""
+        />
+
+        <div
+          class="absolute inset-0 bg-black/25 flex items-center px-[24px]"
+        >
+          <h3 class="text-white text-[28px] font-bold leading-[34px]">
+            Выбираем правильный стол в месте
+          </h3>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="grid grid-cols-4 gap-[24px] mt-[24px]">
+
+    <div class="relative h-[270px] rounded-[12px] overflow-hidden">
+      <img src="./img/Rectangle 90.png" class="absolute inset-0 w-full h-full object-cover" />
+
+      <div class="absolute inset-0 bg-black/20 flex flex-col justify-end p-[14px]">
+        <h4 class="text-white text-[18px] font-semibold leading-[22px]">
+          Правильные интерьерные кресла
+        </h4>
+
+        <span class="text-white text-[14px] mt-2">
+          К статье
+        </span>
+      </div>
+    </div>
+
+    <div class="relative h-[270px] rounded-[12px] overflow-hidden">
+      <img src="./img/Rectangle 115.png" class="absolute inset-0 w-full h-full object-cover" />
+
+      <div class="absolute inset-0 bg-black/20 flex flex-col justify-end p-[14px]">
+        <h4 class="text-white text-[18px] font-semibold leading-[22px]">
+          Не можете выбрать обеденный стол?
+        </h4>
+
+        <span class="text-white text-[14px] mt-2">
+          К статье
+        </span>
+      </div>
+    </div>
+
+    <div class="relative h-[270px] rounded-[12px] overflow-hidden">
+      <img src="./img/Rectangle 116-2.png" class="absolute inset-0 w-full h-full object-cover" />
+
+      <div class="absolute inset-0 bg-black/20 flex flex-col justify-end p-[14px]">
+        <h4 class="text-white text-[18px] font-semibold leading-[22px]">
+          Какие стулья часто покупают в прихожую
+        </h4>
+
+        <span class="text-white text-[14px] mt-2">
+          К статье
+        </span>
+      </div>
+    </div>
+
+    <div class="relative h-[270px] rounded-[12px] overflow-hidden">
+      <img src="./img/Rectangle 117.png" class="absolute inset-0 w-full h-full object-cover" />
+
+      <div class="absolute inset-0 bg-black/20 flex flex-col justify-end p-[14px]">
+        <h4 class="text-white text-[18px] font-semibold leading-[22px]">
+          Правильно и удобно выбираем кресло
+        </h4>
+
+        <span class="text-white text-[14px] mt-2">
+          К статье
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="m-auto mt-10 p-5 bg-[#FF2632] hidden lg:block">
+
+<div class="flex justify-around items-center p-10 max-w-300 m-auto">
+    <div class="text-white">
+        <h1 class="text-7xl font-bold">Мы на You-tube</h1>
+        <br>
+        <p class="text-xl">Специально для вас мы создали<br> 
+       канал с полезынми и интересными роликами</p>
+       <br>
+       <br>
+       <button class="flex gap-5 text-[#FF2632] bg-[#FFFFFF] px-10 py-4 rounded-xl cursor-pointer">Смотреть <img src="./img/play-circle.png"></button>
+    </div>
+
+    <div>
+        <img src="./img/glowing_youtube_logo_on_a_realistic_3d_circle 1.png" alt="">
+    </div>
+</div>
+</section>
+
+
+
+
+
 </main>
 
 

@@ -685,6 +685,9 @@
   .justify-around {
     justify-content: space-around;
   }
+  .justify-baseline {
+    justify-content: baseline;
+  }
   .justify-between {
     justify-content: space-between;
   }
@@ -717,6 +720,9 @@
   }
   .gap-15 {
     gap: calc(var(--spacing) * 15);
+  }
+  .gap-20 {
+    gap: calc(var(--spacing) * 20);
   }
   .gap-\[24px\] {
     gap: 24px;
@@ -1017,6 +1023,9 @@
   .text-\[\#8A8A8A\] {
     color: #8A8A8A;
   }
+  .text-\[\#8CC004\] {
+    color: #8CC004;
+  }
   .text-\[\#555\] {
     color: #555;
   }
@@ -1121,6 +1130,11 @@
       justify-content: space-between;
     }
   }
+  .lg\:gap-5 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 5);
+    }
+  }
   .lg\:gap-10 {
     @media (width >= 64rem) {
       gap: calc(var(--spacing) * 10);
@@ -1139,6 +1153,11 @@
   .lg\:p-5 {
     @media (width >= 64rem) {
       padding: calc(var(--spacing) * 5);
+    }
+  }
+  .lg\:p-10 {
+    @media (width >= 64rem) {
+      padding: calc(var(--spacing) * 10);
     }
   }
   .lg\:px-15 {
